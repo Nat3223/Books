@@ -8,6 +8,9 @@ public class Main {
 
 
         Reader first = new Reader("Jan", "Kowalski", "S001");
+        Reader second = new Reader("Anna", "Nowak", "S002");
 
+        first.printData();
+        second.printData();
     }
 }
